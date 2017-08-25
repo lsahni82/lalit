@@ -1,0 +1,20 @@
+#array1
+# 2 coys , each coy has 3 departments , each dept has 4 salesman
+company=c("coy1","coy2")
+department=c('dept1','dept2','dept3')
+salesman=c('salesman1','salesman2','salesman3','salesman4')
+set.seed(1234)
+sales=ceiling(runif(2*3*4,50,100))
+mean(sales)
+cat(sales)
+sales;length(sales)
+salesarray=array(sales,c(4,3,2),list(salesman,department,company))
+department
+salesarray
+colnames(salesarray)
+rownames(salesarray)
+salesarray[3,2,1]
+salesarray[,,1]
+salesarray[1,,]
+apply(salesarray,c(1,2,3),sum)
+apply(salesarray,c(2,3),sum)
