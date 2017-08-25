@@ -8,3 +8,4 @@ summary(diabtes)
 summary(status)
 status=(factor(status,order=TRUE))
 status
+
