@@ -68,3 +68,5 @@ marks3.table=table(marks3.cut)
 marks3.table
 cbind(marks3.table)
 hist(cbind(marks3.table))
+marks2c=c("10-20","20-30","30-40","40-50")
+df2c=data.frame((marks2c,students2c))
