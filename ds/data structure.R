@@ -34,6 +34,6 @@ month.abb[1:5]
 classint1b=cut(marks,breaks=bks,include.lowest=T,labels=LETTERS[1:length(bks)-1])
 as.character(head(classint1b,n=5))
 
-
+str(marks)
 
 

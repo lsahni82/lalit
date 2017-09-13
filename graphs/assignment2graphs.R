@@ -19,3 +19,4 @@ corrgram(baseball[,vars2], main="Baseball data (alphabetic order)")
 corrgram(baseball[,vars2], order=TRUE,
         main="Baseball data (PC order)",
         panel=panel.shade, text.panel=panel.txt)
+library(shiny)
