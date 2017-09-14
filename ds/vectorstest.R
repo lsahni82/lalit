@@ -22,3 +22,17 @@ total_week <- total_roulette + total_poker
 total_week
 
 roulette_vector[2]
+
+
+runif(50)
+
+x <- seq(0, 1, length = 6)
+
+plot( c(x, 1:10, 100))
+ ss=plot(c(10,20,30,40))
+ IQR(ss)
+ head(iris)
+ iris
+ ls(iris)
+ str(iris)
+ 
