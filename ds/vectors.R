@@ -14,8 +14,11 @@ find("new",state.name)
 ?fin
 A=10
 a
+library(plyr)
+ls
+lsf.str()
 
-seq(from = 4.5, to = 2.5)
+lsseq(from = 4.5, to = 2.5)
 
 baskets.of.Granny <- c(12,4,4,6,9,3)
 baskets.of.Geraldine <- c(5,3,2,2,12,9)
